@@ -1,0 +1,51 @@
+.today{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.today .infected{
+  background-color: red;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+  width: 300px;
+  border-radius: 6px;
+}
+
+.today .cured{
+  background-color: green;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+  width: 200px;
+  border-radius: 6px;
+}
+
+.today .death{
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  align-items: center;
+  width: 200px;
+  border-radius: 6px;
+}
+
+.total{
+  background-color: navy;
+  color: white;
+  width: 680px;
+  text-align: center;
+  border-radius: 6px;
+}
+.total-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
